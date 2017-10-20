@@ -1,0 +1,12 @@
+spring:
+  influxdb:
+    url: http://localhost:8086
+    username: restedge
+    password: ~
+    database: stattauto_ddd
+    retention-policy: autogen
+  application:
+    name: Admin_Monitoring
+    
+server:
+  port: 9877
